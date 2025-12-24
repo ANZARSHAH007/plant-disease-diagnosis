@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
+# PyTorch Models (large files)
+*.pth
+*.pt
+*.onnx
+*.safetensors
+
+# Dataset folders (too large for GitHub)
+dataset/
+*.jpg
+*.jpeg
+*.png
+*.JPEG
+*.JPG
+*.PNG
+
+# YOLOv8 training outputs
+runs/
+yolov8n-seg.pt
+models/yolov8_seg/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
+
+# Environment
+.env
+.conda

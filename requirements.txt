@@ -1,0 +1,24 @@
+# Deep Learning Framework
+torch==2.9.1
+torchvision==0.24.1
+torchaudio==2.9.1
+
+# Computer Vision
+opencv-python==4.10.0.84
+pillow==11.1.0
+ultralytics==8.3.50
+
+# Data Science
+numpy==2.2.5
+pandas==2.3.3
+matplotlib==3.10.7
+seaborn==0.13.2
+scikit-learn==1.7.1
+
+# Web Framework
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+python-multipart==0.0.20
+
+# Utilities
+tqdm==4.67.1
